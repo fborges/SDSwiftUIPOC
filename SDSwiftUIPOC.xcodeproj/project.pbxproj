@@ -32,7 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D625C2E524B67D42004602EC /* TretogorPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TretogorPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D625C2E524B67D42004602EC /* SDSwiftUIPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDSwiftUIPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D625C2E824B67D42004602EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D625C2EA24B67D42004602EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D625C2EC24B67D42004602EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		D625C2DC24B67D42004602EC = {
 			isa = PBXGroup;
 			children = (
-				D625C2E724B67D42004602EC /* TretogorPOC */,
+				D625C2E724B67D42004602EC /* SDSwiftUIPOC */,
 				D625C2E624B67D42004602EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,12 +80,12 @@
 		D625C2E624B67D42004602EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D625C2E524B67D42004602EC /* TretogorPOC.app */,
+				D625C2E524B67D42004602EC /* SDSwiftUIPOC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D625C2E724B67D42004602EC /* TretogorPOC */ = {
+		D625C2E724B67D42004602EC /* SDSwiftUIPOC */ = {
 			isa = PBXGroup;
 			children = (
 				D625C30824B6C1CD004602EC /* Utils */,
@@ -106,7 +106,7 @@
 				D625C31324B6D411004602EC /* TypeWrapper.swift */,
 				D6D7189524B8D9E6003D2EE1 /* ImageLoader.swift */,
 			);
-			path = TretogorPOC;
+			path = SDSwiftUIPOC;
 			sourceTree = "<group>";
 		};
 		D625C2F024B67D44004602EC /* Preview Content */ = {
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D625C2E424B67D42004602EC /* TretogorPOC */ = {
+		D625C2E424B67D42004602EC /* SDSwiftUIPOC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D625C2F924B67D44004602EC /* Build configuration list for PBXNativeTarget "TretogorPOC" */;
+			buildConfigurationList = D625C2F924B67D44004602EC /* Build configuration list for PBXNativeTarget "SDSwiftUIPOC" */;
 			buildPhases = (
 				D625C2E124B67D42004602EC /* Sources */,
 				D625C2E224B67D42004602EC /* Frameworks */,
@@ -162,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = TretogorPOC;
+			name = SDSwiftUIPOC;
 			productName = TretogorPOC;
-			productReference = D625C2E524B67D42004602EC /* TretogorPOC.app */;
+			productReference = D625C2E524B67D42004602EC /* SDSwiftUIPOC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D625C2E024B67D42004602EC /* Build configuration list for PBXProject "TretogorPOC" */;
+			buildConfigurationList = D625C2E024B67D42004602EC /* Build configuration list for PBXProject "SDSwiftUIPOC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -195,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D625C2E424B67D42004602EC /* TretogorPOC */,
+				D625C2E424B67D42004602EC /* SDSwiftUIPOC */,
 			);
 		};
 /* End PBXProject section */
@@ -373,15 +373,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TretogorPOC/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SDSwiftUIPOC/Preview Content\"";
 				DEVELOPMENT_TEAM = 7BAW9PJR59;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TretogorPOC/Info.plist;
+				INFOPLIST_FILE = SDSwiftUIPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.febezerra.TretogorPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.febezerra.SDSwiftUIPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -393,15 +393,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TretogorPOC/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SDSwiftUIPOC/Preview Content\"";
 				DEVELOPMENT_TEAM = 7BAW9PJR59;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TretogorPOC/Info.plist;
+				INFOPLIST_FILE = SDSwiftUIPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.febezerra.TretogorPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.febezerra.SDSwiftUIPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -411,7 +411,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D625C2E024B67D42004602EC /* Build configuration list for PBXProject "TretogorPOC" */ = {
+		D625C2E024B67D42004602EC /* Build configuration list for PBXProject "SDSwiftUIPOC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D625C2F724B67D44004602EC /* Debug */,
@@ -420,7 +420,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D625C2F924B67D44004602EC /* Build configuration list for PBXNativeTarget "TretogorPOC" */ = {
+		D625C2F924B67D44004602EC /* Build configuration list for PBXNativeTarget "SDSwiftUIPOC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D625C2FA24B67D44004602EC /* Debug */,

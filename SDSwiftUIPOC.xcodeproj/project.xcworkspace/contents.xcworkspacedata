@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TretogorPOC.xcodeproj">
+      location = "self:/Users/febezerra/Documents/Xcode/TretogorPOC/SDSwiftUIPOC.xcodeproj">
    </FileRef>
 </Workspace>
