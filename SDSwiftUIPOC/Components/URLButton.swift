@@ -24,14 +24,11 @@ struct URLButton: View, Configurable {
                 .foregroundColor(.white)
                 .font(Font.headline)
             }
-        
             .padding(10)
             .background(Color.blue)
-        .overlay(
-            RoundedRectangle(cornerRadius: 10)
-                .stroke(Color.blue, lineWidth: 10)
-
-            
+            .overlay(
+                RoundedRectangle(cornerRadius: 10)
+                    .stroke(Color.blue, lineWidth: 10)
             )
         }
         .padding(.top, 30)
