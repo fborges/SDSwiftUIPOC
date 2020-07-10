@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  TretogorPOC
+// SDSwiftUIPOC
 //
 //  Created by Felipe Borges Bezerra on 08/07/20.
 //  Copyright © 2020 Felipe Borges Bezerra. All rights reserved.
